@@ -38,3 +38,23 @@ public class SqlInjection extends Lesson {
         return "1.sql.injection.title";
     }
 }
+
+
+package org.owasp.webgoat.sql_injection.introduction;
+
+import org.owasp.webgoat.lessons.Category;
+import org.owasp.webgoat.lessons.Lesson;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SqlInjection extends Lesson {
+    @Override
+    public Category getDefaultCategory() {
+        return Category.INJECTION;
+    }
+
+    @Override
+    public String getTitle() {
+        return "1.sql.injection.title";
+    }
+}
