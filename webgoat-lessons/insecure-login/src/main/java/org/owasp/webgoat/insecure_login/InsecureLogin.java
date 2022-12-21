@@ -32,6 +32,7 @@ import org.springframework.stereotype.Component;
  * @author WebGoat
  * @version $Id: $Id
  * @since October 12, 2016
+ //////
  */
 @Component
 public class InsecureLogin extends Lesson {
