@@ -33,6 +33,10 @@ public class AccountVerificationHelper {
     //simulating database storage of verification credentials
     private static final Integer verifyUserId = 1223445;
     private static final Map<String, String> userSecQuestions = new HashMap<>();
+    
+    //simulating database storage of verification credentials
+    private static final Integer verifyUserId = 1223445;
+    private static final Map<String, String> userSecQuestions = new HashMap<>();
 
     static {
         userSecQuestions.put("secQuestion0", "Dr. Watson");
