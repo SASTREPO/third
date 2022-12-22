@@ -18,6 +18,7 @@
  * Getting Source ==============
  *
  * Source for this application is maintained at https://github.com/WebGoat/WebGoat, a repository for free software projects.
+ * TEST INCREMENTALL 22/12/2022
  */
 
 package org.owasp.webgoat.path_traversal;
@@ -33,7 +34,7 @@ public class PathTraversal extends Lesson {
     public Category getDefaultCategory() {
         return Category.INJECTION;
     }
-
+    
     @Override
     public String getTitle() {
         return "path-traversal-title";
